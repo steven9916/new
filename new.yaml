@@ -89,17 +89,20 @@ proxies:
   -
     name: '美国 grpc'
     type: vless
-    server: yd.galgamer.xyz
+    server: 443.9916.eu.org 
     port: 443
-    uuid: fa4ec23f-fb63-3b10-9aaf-4c732b24c413
+    uuid: c51b32f8-e06e-4905-ba0a-8ae01c2b66e0
     alterId: 0
     cipher: auto
     udp: true
-    servername: pay.justcn2.top
+    servername: yg.zxing.us.kg 
     tls: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: serval
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: yg.zxing.us.kg 
+      
 proxy-groups:
   -
     name: 🔰国外流量
