@@ -25,21 +25,19 @@ dns:
 proxies:
   -
     name: '新加坡 1号'
-    type: vmess
-    server: xg1.justcn2.top
-    port: 80
-    uuid: fa4ec23f-fb63-3b10-9aaf-4c732b24c413
-    alterId: 0
-    cipher: auto
-    udp: true
-    servername: a.189.cn
+    type: vless
+    server: 443.9916.eu.org
+    port: 443
+    uuid: c51b32f8-e06e-4905-ba0a-8ae01c2b66e0  
+    udp: false
+    tls: true
     network: ws
+    servername: yg.zxing.us.kg     
     ws-opts:
-      path: '/JJkuv3?ed=3122'
-      headers: { Host: '' }
-    ws-path: '/JJkuv3?ed=3122'
-    ws-headers:
-      Host: ''
+      path: "/?ed=2560"    
+      headers:
+        Host: yg.zxing.us.kg    
+
   -
     name: '新加坡 2'
     type: vmess
