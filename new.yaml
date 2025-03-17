@@ -32,11 +32,11 @@ proxies:
     udp: false
     tls: true
     network: ws
-    servername: yg.zxing.us.kg     
+    servername: kkk.zxing.us.kg     
     ws-opts:
       path: "/?ed=2560"    
       headers:
-        Host: yg.zxing.us.kg    
+        Host: kkk.zxing.us.kg    
 
   -
     name: '新加坡 2'
